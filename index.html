@@ -152,6 +152,10 @@
     <label for="checkbox11">VINO11: <span class="desactive"></span></label>
     <br>
 
+    <input type="checkbox" name="checkbox11">
+    <label for="checkbox11">AJFI11: <span class="desactive"></span></label>
+    <br>
+
     <script>
 
         let saveObj = JSON.parse(localStorage.getItem('FIIs'))
@@ -184,6 +188,7 @@
                 XPSF11:0,
                 BEES3F:0,
                 VINO11:0,
+                AJFI11:0
             }
 
             localStorage.setItem("FIIs", JSON.stringify(newObj))
